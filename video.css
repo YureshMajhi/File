@@ -1,6 +1,4 @@
-
 .thumbnail-container{
-    width: 250px;
     margin-bottom: 10px;
 }
 .thumbnail{
@@ -23,7 +21,6 @@
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 10px;
-    width: 200px;
 }
 .channel-title{
     font-size: 12px;
