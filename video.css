@@ -1,0 +1,70 @@
+
+.thumbnail-container{
+    width: 250px;
+    margin-bottom: 10px;
+}
+.thumbnail{
+    width: 100%;
+}
+
+
+.video-info{
+    display: grid;
+    grid-template-columns: 36px 1fr;
+}
+.video-info img{
+    width: 100%;
+    border-radius: 18px;
+}
+.video-info p{
+    margin-left: 15px;
+}
+.video-title{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.channel-title{
+    font-size: 12px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 5px;
+
+}
+.video-stat{
+    font-size: 12px;
+    color: gray;
+
+}
+.channel-container{
+    position: relative;
+}
+.channel-container .tooltip{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    position: absolute;
+    white-space: nowrap;
+    padding: 10px 25px 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.215);
+    opacity: 0;
+    pointer-events: none;
+}
+.channel-container:hover .tooltip{
+    opacity: 1;
+}
+.tooltip img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.tooltip-title{
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+.tooltip-info{
+    font-size: 14px;
+    color: gray;
+}
