@@ -21,6 +21,7 @@
     flex-direction: column;
 }
 .sidebar-box p{
+    margin-top: 7px;
     font-size: 10px;
 }
 .sidebar-box:hover{
