@@ -10,6 +10,7 @@
     flex-direction: column;
     background-color: white;
     z-index: 200;
+    padding-right: 10px;
 }
 .sidebar-box{
     height: 75px;
